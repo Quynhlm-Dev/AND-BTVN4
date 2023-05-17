@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".RelativeLayout">
+    <!--    android:ignoreGravity="@id/view2"-->
+
+
+    <!--    android:layout_alignParentBottom căn thẳng cạnh dưới view con với cạnh dưới View cha
+    android:layout_alignParentStart căn thẳng cạnh trái view con với cạnh trái View cha
+    android:layout_alignParentEnd căn thẳng cạnh phải view con với cạnh phải View cha
+    android:layout_alignParentTop căn thẳng cạnh trên view con với cạnh trên View cha
+    android:layout_centerInParent căn view con vào giữa View cha
+    android:layout_centerHorizontal căn view con vào giữa View cha theo chiều ngang
+    android:layout_centerVertical căn view con vào giữa View cha theo chiều đứng-->
+
+    <!--    android:layout_below Nằm phía dưới View có ID được chỉ ra
+    android:layout_above Nằm phía trên View có ID được chỉ ra
+    android:layout_toStartOf Nằm phía trái View có ID được chỉ ra
+    android:layout_toEndOf Nằm phía phải View có ID được chỉ ra
+    android:layout_alignBottom Căn thẳng cạnh dưới với cạnh dưới của View có ID được chỉ ra
+    android:layout_alignStart Căn thẳng cạnh trái với cạnh trái của View có ID được chỉ ra
+    android:layout_alignEnd Căn thẳng cạnh phải với cạnh phải của View có ID được chỉ ra
+    android:layout_alignTop Căn thẳng cạnh trên với cạnh trên của View có ID được chỉ ra-->
+
+    <!--    android:layout_alignParentEnd="true"-->
+    <!--    android:layout_alignParentTop="true"-->
+    <!--    android:layout_centerInParent="true"-->
+    <!--    android:layout_alignParentStart="true"-->
+    <!--    android:layout_alignParentEnd="true"-->
+    <!--    android:layout_centerHorizontal="true"-->
+    <!--    android:layout_centerVertical="true"-->
+    <!--    android:layout_alignParentBottom="true"-->
+
+
+    <!--        android:layout_below="@id/view1"-->
+    <!--    android:layout_above="@id/view3"-->
+    <!--       android:layout_toStartOf="@id/view1"-->
+    <!--    android:layout_toEndOf="@id/view1"-->
+    <!--    android:layout_alignParentBottom="true"-->
+    <!--    android:layout_alignStart="@id/view1"-->
+    <!--    android:layout_alignEnd="@id/view1"-->
+    <!--    android:layout_alignTop="@id/view2"-->
+
+
+    <!--    <View-->
+    <!--        android:id="@+id/view1"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:background="#FF5722" />-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/view2"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:background="#ff0000" />-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/view3"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:background="#03A9F4" />-->
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#e8d33636" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/view1"
+        android:layout_toEndOf="@id/view1"
+        android:background="#E853D336" />
+
+
+</RelativeLayout>
